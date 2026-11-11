@@ -1,0 +1,13 @@
+{
+  "name": "pac-developer-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal de APIs + Mock Server para CCE PAC as a Service",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node scripts/build.js && node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "yaml": "^2.6.0" }
+}
